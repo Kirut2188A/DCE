@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Picture</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, main, footer {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #fff;
+            background-color: #000;
+        }
+
+        h1, h2, p {
+            color: #fff;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            filter: grayscale(100%);
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tetherous</h1>
+    </header>
+    
+    <main>
+        <h2>Download Picture</h2>
+        <p>Click the link below to download the picture:</p>
+        <a href="image.jpg" download>
+            <img src="image.jpg" alt="Download Picture">
+        </a>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Tetherous</p>
+    </footer>
+</body>
+</html>
